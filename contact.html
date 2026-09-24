@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bean & Brew</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bean & Brew</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to place a large order? Reach out!</p>
+        </section>
+
+        <section class="info-layout">
+            <!-- Using inline styles here just for the form so you don't have to edit your style.css again -->
+            <div class="text-box" style="width: 100%; max-width: 600px; margin: 0 auto;">
+                <form action="#" method="post">
+                    <fieldset style="border: 2px solid #6B3E26; padding: 20px; border-radius: 8px;">
+                        <legend style="color: #6B3E26; font-family: 'Montserrat', sans-serif; font-weight: bold; padding: 0 10px;">Send us a message</legend>
+                        
+                        <div style="margin-bottom: 15px; margin-top: 10px;">
+                            <label for="name" style="display: block; font-weight: bold; margin-bottom: 5px;">Name:</label>
+                            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email:</label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="message" style="display: block; font-weight: bold; margin-bottom: 5px;">Message:</label>
+                            <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+                        </div>
+
+                        <button type="submit" style="background-color: #6B3E26; color: #FFF8F0; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; font-size: 1rem;">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bean & Brew Coffee Shop</p>
+    </footer>
+</body>
+</html>
